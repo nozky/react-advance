@@ -13,10 +13,10 @@ const UseEffectBasics = () => {
   },[value]) //dependency array
 
   useEffect(()=>{
-    console.log('Should run once')
+    console.log('Should run once - use Effect')
   },[])
 
-  console.log('Render component')
+  console.log('Render component - use Effect')
   return (
     <React.Fragment>
       <h1>useEffect Basics</h1>

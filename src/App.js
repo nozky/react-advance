@@ -25,8 +25,11 @@ function App() {
     <React.Fragment>
       <div className='container'>
        <h2>Advanced Tutorial</h2>
-       <UseStateBasics />
      </div>
+
+      {/* <div className="container">
+        <UseStateBasics />
+      </div>
 
       <div className="container">
         <UseStateArray />
@@ -93,7 +96,7 @@ function App() {
       </div>
       <div className="container">
         <ReactRouterDom />
-      </div>
+      </div> */}
       <div className="container">
         <IndexMemo />
       </div>

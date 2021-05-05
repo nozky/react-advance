@@ -13,12 +13,12 @@ const UseEffectCleanup = () => {
 
 
   useEffect(()=>{
-    console.log('Use Effect')
+    console.log('Use Effect - use effect')
     window.addEventListener('resize',checkSize)
 
       //Clean up function
       return ()=> {
-      console.log('CleanUp')
+      console.log('CleanUp -use effect')
       window.removeEventListener('resize',checkSize)
     }
   })
